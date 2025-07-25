@@ -1,11 +1,11 @@
-import React from 'react'
+
 import Navbar from '../components/Navbar'
 import axios from 'axios';
 import batman from '../assets/batman.png'; 
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const signup = () => {
+const Signup = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const navigate = useNavigate();
@@ -105,4 +105,4 @@ const signup = () => {
   );
 };
 
-export default signup;
+export default Signup;
