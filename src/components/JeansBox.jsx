@@ -1,5 +1,5 @@
 import React from 'react'
-import jeansData from './jeansData.jsx';
+import jeansData from './Jeansinfo.jsx';
 import { Link } from "react-router-dom";
 import { useState } from 'react';
 
