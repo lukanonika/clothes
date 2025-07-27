@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.jsx';
 import Login from './pages/login.jsx';
-import Singin from './pages/Signin.jsx';
+import Signin from './pages/Signin.jsx';
 import SingleProduct from './components/SingleProduct.jsx';
 import Cart from './components/Cart.jsx';
 import { useCart } from './components/CartContext.jsx';
