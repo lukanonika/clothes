@@ -3,7 +3,7 @@ import stussyjorts from "../assets/stussyjorts.png";
 import ballshorts from "../assets/8ballshorts.png";
 
 
-export const jeansData = [
+export const JeansData = [
   {
     id: 5,
     name: "Classic Stussy",
@@ -30,4 +30,4 @@ export const jeansData = [
   }
 ];
 
-export default jeansData;
+export default JeansData;
