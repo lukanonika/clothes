@@ -2,9 +2,9 @@ import React from 'react';
 import Navbar from './Navbar';
 import Bottom from '../components/Bottom.jsx';
 import { useParams } from 'react-router-dom';
-import ClothesData from '../components/ClothesData';
-import JeansData from '../components/JeansData';
-import { useCart } from '../components/CartContext';
+import ClothesData from '../components/ClothesData.jsx';
+import JeansData from '../components/JeansData.jsx';
+import { useCart } from '../components/CartContext.jsx';
 
 const SingleProduct = () => {
   const { id } = useParams();
