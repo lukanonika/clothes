@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import Bottom from '../components/Bottom.jsx';
 import { useParams } from 'react-router-dom';
 import ClothesData from '../components/ClothesData';
-import jeansData from '../components/jeansData';
+import JeansData from '../components/JeansData';
 import { useCart } from '../components/CartContext';
 
 const SingleProduct = () => {
@@ -12,7 +12,7 @@ const SingleProduct = () => {
 
   const { addToCart } = useCart(); 
 
-  const allProducts = [...ClothesData, ...jeansData];
+  const allProducts = [...ClothesData, ...JeansData];
   const product = allProducts.find((item) => item.id === numericId);
 
   if (!product) {
